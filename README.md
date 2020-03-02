@@ -1,2 +1,1 @@
-# VB-Assignments
-Just some Visual Basic 
+# Visual Basic Projects 
