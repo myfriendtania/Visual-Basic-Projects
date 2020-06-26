@@ -1,0 +1,28 @@
+Public Class Form1
+    Private Sub mnuDodgeChallenger_Click(sender As Object, e As EventArgs) Handles mnuDodgeChallenger.Click
+        Form3.Show()
+
+    End Sub
+
+    Private Sub mnuFileExit_Click(sender As Object, e As EventArgs) Handles mnuFileExit.Click
+        'close the application
+        Me.Close()
+    End Sub
+
+    Private Sub mnuAbout_Click(sender As Object, e As EventArgs) Handles mnuAbout.Click
+        'popup with my name and the assignment
+        MessageBox.Show("Tania Torres, Project 7 for Chapter 7: Multiple Forms, Modules, and Menus")
+    End Sub
+
+    Private Sub mnuTeslaS_Click(sender As Object, e As EventArgs) Handles mnuTeslaS.Click
+        Form4.Show()
+    End Sub
+
+    Private Sub mnuLamboPerf_Click(sender As Object, e As EventArgs) Handles mnuLamboPerf.Click
+        Form5.Show()
+    End Sub
+
+    Private Sub mnuNissanGTR_Click(sender As Object, e As EventArgs) Handles mnuNissanGTR.Click
+        Form6.Show()
+    End Sub
+End Class
